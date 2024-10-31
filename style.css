@@ -1,0 +1,28 @@
+.ru-currency-chart_daily_area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ru-currency-chart_daily {
+    display: flex;
+    align-items: center;
+    min-width: 4.55em;
+    text-align: center;
+    margin-right: 0.2em;
+    padding: 0;
+    cursor: pointer;
+}
+.ru-currency-chart_daily .currency-sign { max-height: 1.125em; }
+.ru-currency-chart_daily .currency-sign svg { height: 1.125em; margin-right: 0.4em; }
+
+.ru-currency-chart_value { display: flex; align-items: center; }
+
+.ru-currency-chart-icon_wrap { text-align: right; width:100%; }
+.ru-currency-chart-draw_icon { cursor: pointer; }
+.ru-currency-chart-draw_icon svg { height: 1em; }
+
+#ru-currency-chart-id { margin-top: 1em; }
+
+@media screen and (min-width: 320px) { .ru-currency-chart_daily { font-size: 16px; } }
+@media screen and (min-width: 1400px) { .ru-currency-chart_daily { font-size: 18px; } }
